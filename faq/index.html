@@ -1,0 +1,2603 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for Block Blast style game in Unity">
+      
+      
+        <meta name="author" content="Your Project">
+      
+      
+      
+        <link rel="prev" href="../advanced/customization/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>FAQ - BlocKIT Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#frequently-asked-questions" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BlocKIT Documentation" class="md-header__button md-logo" aria-label="BlocKIT Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BlocKIT Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              FAQ
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/your-username/blockit" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    BlocKIT
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../basics/intro/" class="md-tabs__link">
+          
+  
+  
+  Basics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../components/manager/" class="md-tabs__link">
+          
+  
+  
+  Game Components
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../systems/scoring/" class="md-tabs__link">
+          
+  
+  
+  Systems
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../advanced/ai/" class="md-tabs__link">
+          
+  
+  
+  Advanced
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  FAQ
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BlocKIT Documentation" class="md-nav__button md-logo" aria-label="BlocKIT Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    BlocKIT Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/your-username/blockit" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    BlocKIT
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Basics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../basics/getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Components
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Game Components
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/manager/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Manager
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Board
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/shapes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shapes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../components/logic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Logic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Systems
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Systems
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../systems/scoring/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scoring
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../systems/animations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Animations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../systems/ads/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ads
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../systems/sound/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sound
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Advanced
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Advanced
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advanced/ai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI & Difficulty
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../advanced/customization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-blockit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is BlocKIT?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#do-i-need-programming-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Do I need programming knowledge?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-unity-version-do-i-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Unity version do I need?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-dependencies-are-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What dependencies are required?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setup Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#game-wont-start-what-to-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Game won't start - what to do?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shapes-not-dragging-whats-wrong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shapes not dragging - what's wrong?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-animations-playing-why" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No animations playing - why?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gameplay-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gameplay Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gameplay Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-change-board-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I change board size?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-add-more-than-3-shapes-per-turn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I add more than 3 shapes per turn?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-make-the-game-easierharder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I make the game easier/harder?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-disable-the-ai-difficulty-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I disable the AI difficulty system?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customization-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Customization Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Customization Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-change-colors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I change colors?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-add-custom-shapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I add custom shapes?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-add-rotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I add rotation?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-change-animation-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I change animation speed?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#game-is-laggy-on-mobile-how-to-optimize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Game is laggy on mobile - how to optimize?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#too-many-objects-in-scene" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Too many objects in scene?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-usage-too-high" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Memory usage too high?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monetization-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monetization Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monetization Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-add-ads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I add ads?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-should-i-show-ads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When should I show ads?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-add-iap-in-app-purchases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I add IAP (in-app purchases)?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-the-performance-like" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is the performance like?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-use-it-for-commercial-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I use it for commercial projects?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#does-it-support-multiplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Does it support multiplayer?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-port-to-webmobileconsole" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I port to web/mobile/console?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-source-code-included" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Is source code included?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error Messages
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Error Messages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dotween-not-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "DOTween not found"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nullreferenceexception-newmanagerinstance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "NullReferenceException: NewManager.Instance"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cannot-place-shape" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Cannot place shape"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ads-not-showing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Ads not showing"
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-design-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Game Design Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Game Design Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-makes-a-good-score" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What makes a good score?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-long-should-games-be" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How long should games be?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#should-i-use-power-ups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Should I use power-ups?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#still-have-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Still Have Questions?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Still Have Questions?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check Documentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debug Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community Support
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        General Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="General Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-blockit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is BlocKIT?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#do-i-need-programming-knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Do I need programming knowledge?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-unity-version-do-i-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Unity version do I need?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-dependencies-are-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What dependencies are required?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Setup Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#game-wont-start-what-to-do" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Game won't start - what to do?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shapes-not-dragging-whats-wrong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shapes not dragging - what's wrong?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#no-animations-playing-why" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        No animations playing - why?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gameplay-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gameplay Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gameplay Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-change-board-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I change board size?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-add-more-than-3-shapes-per-turn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I add more than 3 shapes per turn?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-make-the-game-easierharder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I make the game easier/harder?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-disable-the-ai-difficulty-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I disable the AI difficulty system?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customization-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Customization Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Customization Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-change-colors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I change colors?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-add-custom-shapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I add custom shapes?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-add-rotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I add rotation?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-change-animation-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I change animation speed?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#game-is-laggy-on-mobile-how-to-optimize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Game is laggy on mobile - how to optimize?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#too-many-objects-in-scene" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Too many objects in scene?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-usage-too-high" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Memory usage too high?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monetization-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monetization Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Monetization Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-add-ads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I add ads?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#when-should-i-show-ads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When should I show ads?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-do-i-add-iap-in-app-purchases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How do I add IAP (in-app purchases)?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technical Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technical Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-the-performance-like" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is the performance like?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-use-it-for-commercial-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I use it for commercial projects?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#does-it-support-multiplayer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Does it support multiplayer?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#can-i-port-to-webmobileconsole" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Can I port to web/mobile/console?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-source-code-included" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Is source code included?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-messages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error Messages
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Error Messages">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dotween-not-found" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "DOTween not found"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nullreferenceexception-newmanagerinstance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "NullReferenceException: NewManager.Instance"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cannot-place-shape" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Cannot place shape"
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ads-not-showing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        "Ads not showing"
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-design-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Game Design Questions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Game Design Questions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-makes-a-good-score" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What makes a good score?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-long-should-games-be" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How long should games be?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#should-i-use-power-ups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Should I use power-ups?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#still-have-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Still Have Questions?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Still Have Questions?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#check-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Check Documentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Debug Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#community-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Community Support
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+<h2 id="general-questions">General Questions</h2>
+<h3 id="what-is-blockit">What is BlocKIT?</h3>
+<p>BlocKIT is a complete Unity asset for creating Block Blast style puzzle games. It includes all core mechanics, UI, animations, and systems needed to launch a game.</p>
+<h3 id="do-i-need-programming-knowledge">Do I need programming knowledge?</h3>
+<p><strong>Basic usage:</strong> No! Most customization can be done through Unity Inspector.</p>
+<p><strong>Advanced features:</strong> Some C# knowledge helps for deeper modifications.</p>
+<h3 id="what-unity-version-do-i-need">What Unity version do I need?</h3>
+<p><strong>Minimum:</strong> Unity 2021.3 LTS</p>
+<p><strong>Recommended:</strong> Unity 2022.3 LTS or newer</p>
+<h3 id="what-dependencies-are-required">What dependencies are required?</h3>
+<p><strong>Required:</strong>
+- DOTween (free from Asset Store)</p>
+<p><strong>Optional:</strong>
+- TextMeshPro (for better text)
+- Ad SDK of your choice (AdMob, Unity Ads, etc.)</p>
+<hr />
+<h2 id="setup-questions">Setup Questions</h2>
+<h3 id="game-wont-start-what-to-do">Game won't start - what to do?</h3>
+<ol>
+<li>✅ Check DOTween is installed</li>
+<li>✅ Check NewManager exists in scene</li>
+<li>✅ Check all references in NewManager are set</li>
+<li>✅ Look for errors in Console</li>
+</ol>
+<h3 id="shapes-not-dragging-whats-wrong">Shapes not dragging - what's wrong?</h3>
+<ol>
+<li>✅ Canvas must have <code>GraphicRaycaster</code></li>
+<li>✅ EventSystem must exist in scene</li>
+<li>✅ NewDraggableShape needs <code>EventTrigger</code> component</li>
+<li>✅ Check Camera is set in Canvas</li>
+</ol>
+<h3 id="no-animations-playing-why">No animations playing - why?</h3>
+<ol>
+<li>✅ Install DOTween from Asset Store</li>
+<li>✅ Restart Unity after DOTween installation</li>
+<li>✅ Check <code>using DG.Tweening;</code> in scripts</li>
+<li>✅ Verify DOTween setup ran successfully</li>
+</ol>
+<hr />
+<h2 id="gameplay-questions">Gameplay Questions</h2>
+<h3 id="how-do-i-change-board-size">How do I change board size?</h3>
+<ol>
+<li>Select <code>NewMatrix</code> in Hierarchy</li>
+<li>Change <code>Rows</code> and <code>Columns</code> in Inspector</li>
+<li>⚠️ <strong>Important:</strong> Must adjust Canvas layout to fit!</li>
+</ol>
+<p><strong>Example for 10×10:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>NewMatrix:
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── Rows: 10
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>└── Columns: 10
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Also adjust:
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>├── Canvas → GameBoard → Scale
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>└── Canvas → GameBoard → Position
+</code></pre></div></p>
+<h3 id="can-i-add-more-than-3-shapes-per-turn">Can I add more than 3 shapes per turn?</h3>
+<p>Yes! In <code>NewBlockBlastLogic.cs</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// Change this line:</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">private</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">SHAPES_PER_TURN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1">// To whatever you want:</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="k">private</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">SHAPES_PER_TURN</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
+</code></pre></div>
+<p>⚠️ <strong>UI Warning:</strong> Need more space in ShapesPanel!</p>
+<h3 id="how-do-i-make-the-game-easierharder">How do I make the game easier/harder?</h3>
+<p><strong>Easy:</strong> Go to <code>NewBrain</code> Inspector:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Easy Threshold: 0.5      (was 0.3)
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>Combo Multipliers: [1.0, 2.0, 3.0, 5.0, 10.0]
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>MAX_MISSING_CELLS: 12    (in code)
+</code></pre></div></p>
+<p><strong>Hard:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Easy Threshold: 0.2
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>Combo Multipliers: [1.0, 1.1, 1.2, 1.3, 1.4]
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>MAX_MISSING_CELLS: 4
+</code></pre></div></p>
+<h3 id="can-i-disable-the-ai-difficulty-system">Can I disable the AI difficulty system?</h3>
+<p>Yes! In <code>NewBrain.cs</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="k">void</span><span class="w"> </span><span class="nf">Start</span><span class="p">()</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="p">{</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="n">adaptationEnabled</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">false</span><span class="p">;</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="w">    </span><span class="n">SetDifficulty</span><span class="p">(</span><span class="mf">0.5f</span><span class="p">);</span><span class="w">  </span><span class="c1">// Lock to Normal</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="p">}</span>
+</code></pre></div>
+<p>Or just give random shapes:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1">// In NewBlockBlastLogic.PickTurnSet():</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="k">return</span><span class="w"> </span><span class="n">pool</span><span class="p">.</span><span class="n">OrderBy</span><span class="p">(</span><span class="n">x</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">Random</span><span class="p">.</span><span class="k">value</span><span class="p">).</span><span class="n">Take</span><span class="p">(</span><span class="mi">3</span><span class="p">).</span><span class="n">ToArray</span><span class="p">();</span>
+</code></pre></div></p>
+<hr />
+<h2 id="customization-questions">Customization Questions</h2>
+<h3 id="how-do-i-change-colors">How do I change colors?</h3>
+<p><strong>Board:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>NewMatrix Inspector:
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>├── Cell Color Empty
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>├── Cell Color Filled
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>└── Cell Color Highlight
+</code></pre></div></p>
+<p><strong>Shapes:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Each ShapeData asset:
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>└── Color property
+</code></pre></div></p>
+<h3 id="how-do-i-add-custom-shapes">How do I add custom shapes?</h3>
+<ol>
+<li><code>Assets/BlocKIT/Data/</code> → Right Click</li>
+<li>Create → BlocKIT → Shape Data</li>
+<li>Design shape in Inspector (click cells)</li>
+<li>Add to <code>NewManager → Shape Data Assets</code> list</li>
+</ol>
+<h3 id="can-i-add-rotation">Can I add rotation?</h3>
+<p>Not built-in, but you can add:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="c1">// In NewDraggableShape.cs</span>
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="k">void</span><span class="w"> </span><span class="nf">Update</span><span class="p">()</span>
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="p">{</span>
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">Input</span><span class="p">.</span><span class="n">GetKeyDown</span><span class="p">(</span><span class="n">KeyCode</span><span class="p">.</span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">isDragging</span><span class="p">)</span>
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="w">        </span><span class="n">RotateShapeData90Degrees</span><span class="p">();</span>
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a><span class="w">        </span><span class="n">UpdateVisual</span><span class="p">();</span>
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="how-do-i-change-animation-speed">How do I change animation speed?</h3>
+<p>Find these constants in scripts:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1">// NewDraggableShape.cs</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="n">DRAG_SCALE_DURATION</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.2f</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="c1">// NewCleanLine.cs</span>
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="n">CLEAR_DURATION</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.5f</span>
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="c1">// PopupAnimator.cs</span>
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a><span class="n">POPUP_DURATION</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.3f</span>
+</code></pre></div>
+<p>Smaller = faster, larger = slower.</p>
+<hr />
+<h2 id="performance-questions">Performance Questions</h2>
+<h3 id="game-is-laggy-on-mobile-how-to-optimize">Game is laggy on mobile - how to optimize?</h3>
+<ol>
+<li><strong>Reduce board size:</strong> 8×8 → 6×6</li>
+<li><strong>Disable particles:</strong> Set particlesEnabled = false</li>
+<li><strong>Simplify animations:</strong> Increase duration constants</li>
+<li><strong>Lower quality:</strong> Edit → Project Settings → Quality</li>
+<li><strong>Optimize sprites:</strong> Use sprite atlas, compress textures</li>
+</ol>
+<h3 id="too-many-objects-in-scene">Too many objects in scene?</h3>
+<p>BlocKIT uses object pooling for:
+- Shapes
+- Cells
+- Floating score texts</p>
+<p>Should not be an issue unless you modified pooling!</p>
+<h3 id="memory-usage-too-high">Memory usage too high?</h3>
+<ol>
+<li>✅ Compress audio files (use OGG)</li>
+<li>✅ Use smaller textures</li>
+<li>✅ Atlas sprites together</li>
+<li>✅ Limit simultaneous animations</li>
+</ol>
+<hr />
+<h2 id="monetization-questions">Monetization Questions</h2>
+<h3 id="how-do-i-add-ads">How do I add ads?</h3>
+<p>See <strong><a href="../systems/ads/">Ads System</a></strong> documentation.</p>
+<p>Quick version:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c1">// 1. Create provider</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="kt">var</span><span class="w"> </span><span class="n">provider</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">AdMobProvider</span><span class="p">();</span>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="c1">// 2. Set in AdsManager</span>
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="n">AdsManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">SetProvider</span><span class="p">(</span><span class="n">provider</span><span class="p">);</span>
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a><span class="c1">// 3. Show ads</span>
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a><span class="n">AdsManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">ShowInterstitial</span><span class="p">();</span>
+</code></pre></div></p>
+<h3 id="when-should-i-show-ads">When should I show ads?</h3>
+<p><strong>Good times:</strong>
+- ✅ After game over
+- ✅ Every 3-5 games
+- ✅ When returning to menu
+- ✅ Between sessions</p>
+<p><strong>Bad times:</strong>
+- ❌ During gameplay
+- ❌ Every single game
+- ❌ Before player has fun</p>
+<h3 id="how-do-i-add-iap-in-app-purchases">How do I add IAP (in-app purchases)?</h3>
+<ol>
+<li>Install Unity IAP package</li>
+<li>Create purchasable items:</li>
+<li>Remove ads</li>
+<li>Undo packs</li>
+<li>Power-ups</li>
+<li>
+<p>Themes</p>
+</li>
+<li>
+<p>Implement:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="k">public</span><span class="w"> </span><span class="k">void</span><span class="w"> </span><span class="nf">OnPurchaseSuccess</span><span class="p">(</span><span class="kt">string</span><span class="w"> </span><span class="n">productId</span><span class="p">)</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="p">{</span>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">productId</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s">&quot;remove_ads&quot;</span><span class="p">)</span>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="w">    </span><span class="p">{</span>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="w">        </span><span class="n">PlayerPrefs</span><span class="p">.</span><span class="n">SetInt</span><span class="p">(</span><span class="s">&quot;NoAds&quot;</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span>
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a><span class="w">        </span><span class="n">AdsManager</span><span class="p">.</span><span class="n">Instance</span><span class="p">.</span><span class="n">DisableAds</span><span class="p">();</span>
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a><span class="p">}</span>
+</code></pre></div></p>
+</li>
+</ol>
+<hr />
+<h2 id="technical-questions">Technical Questions</h2>
+<h3 id="what-is-the-performance-like">What is the performance like?</h3>
+<p><strong>Excellent!</strong> Runs smoothly on:
+- ✅ Low-end Android phones (2GB RAM)
+- ✅ Old iPhones (iPhone 6s+)
+- ✅ Web browsers
+- ✅ Desktop</p>
+<p>Target: 60 FPS on all platforms.</p>
+<h3 id="can-i-use-it-for-commercial-projects">Can I use it for commercial projects?</h3>
+<p>Check your license! Most assets allow commercial use. BlocKIT is designed for commercial release.</p>
+<h3 id="does-it-support-multiplayer">Does it support multiplayer?</h3>
+<p>Not built-in, but you can add:
+- Leaderboards (easy with PlayFab, GameCenter)
+- Turn-based multiplayer (moderate difficulty)
+- Real-time battles (advanced)</p>
+<h3 id="can-i-port-to-webmobileconsole">Can I port to web/mobile/console?</h3>
+<p><strong>Web:</strong> Yes! Works with WebGL.</p>
+<p><strong>Mobile:</strong> Yes! Optimized for iOS/Android.</p>
+<p><strong>Console:</strong> Should work, but not tested.</p>
+<h3 id="is-source-code-included">Is source code included?</h3>
+<p>Yes! All C# scripts are readable and modifiable.</p>
+<hr />
+<h2 id="error-messages">Error Messages</h2>
+<h3 id="dotween-not-found">"DOTween not found"</h3>
+<p><strong>Solution:</strong> Install DOTween from Asset Store, restart Unity.</p>
+<h3 id="nullreferenceexception-newmanagerinstance">"NullReferenceException: NewManager.Instance"</h3>
+<p><strong>Solution:</strong> NewManager missing from scene or destroyed. Check scene setup.</p>
+<h3 id="cannot-place-shape">"Cannot place shape"</h3>
+<p><strong>Solution:</strong> This is normal - shape doesn't fit. It's gameplay, not a bug!</p>
+<h3 id="ads-not-showing">"Ads not showing"</h3>
+<p><strong>Solutions:</strong>
+1. ✅ Check provider is set: <code>AdsManager.Instance.SetProvider()</code>
+2. ✅ Verify ad IDs are correct
+3. ✅ Check network connection
+4. ✅ Look for SDK errors in Console</p>
+<hr />
+<h2 id="game-design-questions">Game Design Questions</h2>
+<h3 id="what-makes-a-good-score">What makes a good score?</h3>
+<p><strong>Balance:</strong>
+- Base points: Small (3-5 per shape)
+- Line clear: Medium (100-200)
+- Combo: Large multiplier (1.5x - 3.0x)</p>
+<p><strong>Psychology:</strong>
+- Players love big combo numbers!
+- Frequent small wins keep engagement
+- Rare huge scores create "wow" moments</p>
+<h3 id="how-long-should-games-be">How long should games be?</h3>
+<p><strong>Casual:</strong> 2-5 minutes average</p>
+<p><strong>Mid-core:</strong> 5-10 minutes</p>
+<p><strong>Hardcore:</strong> 10-30 minutes</p>
+<p>Adjust by:
+- Board size
+- Shape difficulty
+- Combo frequency</p>
+<h3 id="should-i-use-power-ups">Should I use power-ups?</h3>
+<p><strong>Pros:</strong>
+- More monetization options
+- Strategic depth
+- Player retention</p>
+<p><strong>Cons:</strong>
+- More development work
+- Can unbalance game
+- UI complexity</p>
+<p><strong>Recommendation:</strong> Start without, add if needed.</p>
+<hr />
+<h2 id="still-have-questions">Still Have Questions?</h2>
+<h3 id="check-documentation">Check Documentation</h3>
+<ul>
+<li>📖 <a href="../basics/intro/">Introduction</a></li>
+<li>🎮 <a href="../components/manager/">Game Components</a></li>
+<li>⚙️ <a href="../advanced/customization/">Customization</a></li>
+</ul>
+<h3 id="debug-tools">Debug Tools</h3>
+<p>Enable debug mode:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="c1">// In NewManager</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="k">public</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">debugMode</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">true</span><span class="p">;</span>
+</code></pre></div></p>
+<p>Shows:
+- Current difficulty
+- Board state
+- Valid placements
+- Performance stats</p>
+<h3 id="community-support">Community Support</h3>
+<ul>
+<li>Read all documentation first</li>
+<li>Check Console for errors</li>
+<li>Enable debug mode</li>
+<li>Search for similar issues</li>
+</ul>
+<hr />
+<div class="admonition tip">
+<p class="admonition-title">Pro Tip</p>
+<p>95% of issues are fixed by: reinstalling DOTween, checking references in Inspector, or reading error messages carefully!</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
